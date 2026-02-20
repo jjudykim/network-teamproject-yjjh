@@ -1,1 +1,67 @@
-site_name: My Docs
+site_name: YJJH Team's C# & Unity Study Space
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Light
+    - scheme: default
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Dark
+  font:
+    text: Noto Sans KR
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.features
+    - navigation.top
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Part1. C# 기초 프로그래밍 입문:
+      - Section1. 데이터 갖고 놀기:
+      - Section2. 코드의 흐름 제어:
+      - Section3. TextRPG1:
+      - Section4. 객체지향 여행:
+      - Section5. TextRPG2:
+      - Section6. 자료구조 맛보기:
+      - Section7. 알아두면 유용한 기타 문법:
+  - Part2. 자료구조와 알고리즘:
+      - Section1. 선형 자료 기초:
+      - Section2. 미로 준비:
+      - Section3. 그래프:
+      - Section4. 트리:
+      - Section5. A* 길찾기 알고리즘:
+  - Part3. 유니티 엔진:
+      - Section1. 유니티 기초:
+      - Section2. Transform(트랜스폼):
+      - Section3. Prefab(프리팹):
+      - Section4. Collision(충돌):
+      - Section5. Camera(카메라):
+      - Section6. Animation(애니메이션):
+      - Section7. UI:
+      - Section8. Scene(씬):
+      - Section9. Sound(사운드):
+      - Section10. Object Pooling(오브젝트 풀링):
+      - Section11. Coroutine(코루틴):
+      - Section12. Data(데이터):
+      - Section13. 미니RPG:
+
+markdown_extensions:
+  - attr_list                 # 이미지 사이즈 조절
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
