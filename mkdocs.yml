@@ -29,25 +29,25 @@ nav:
   - Home: index.md
   - Part1. C# 기초 프로그래밍 입문:
       - Section1. 데이터 갖고 놀기:
-          - 1. 데이터 형식: docs/Part1/Section1/01.data-type.md
-          - 2. 변수: docs/Part1/Section1/02.variable.md
-          - 3. 정수형: docs/Part1/Section1/03.int.md
+          - 1. 데이터 형식: Part1/Section1/01.data-type.md
+          - 2. 변수: Part1/Section1/02.variable.md
+          - 3. 정수형: Part1/Section1/03.int.md
       - Section2. 코드의 흐름 제어:
-          - 1. if와 else: docs/Part1/Section2/01.if-else.md
-          - 2. switch: docs/Part1/Section2/02.switch.md
-          - 3. 가위-바위-보 게임: docs/Part1/Section2/03.rspGame.md
+          - 1. if와 else: Part1/Section2/01.if-else.md
+          - 2. switch: Part1/Section2/02.switch.md
+          - 3. 가위-바위-보 게임: Part1/Section2/03.rspGame.md
       - Section3. TextRPG1:
-          - 1. TextRPG1 직업 고르기: docs/Part1/Section3/01.text-rpg1-select-class.md
+          - 1. TextRPG1 직업 고르기: Part1/Section3/01.text-rpg1-select-class.md
       - Section4. 객체지향 여행:
-          - 1. 객체지향의 시작: docs/Part1/Section4/01.start-of-oop.md
+          - 1. 객체지향의 시작: Part1/Section4/01.start-of-oop.md
       - Section5. TextRPG2:
-          - 1. TextRPG2 플레이어 생성: docs/Part1/Section5/01.text-rpg2-create-player.md
+          - 1. TextRPG2 플레이어 생성: Part1/Section5/01.text-rpg2-create-player.md
       - Section6. 자료구조 맛보기:
-          - 1. 배열: docs/Part1/Section6/01.array-preview.md
+          - 1. 배열: Part1/Section6/01.array-preview.md
       - Section7. 알아두면 유용한 기타 문법:
-          - 1. Generic(일반화): docs/Part1/Section7/01.generic.md
+          - 1. Generic(일반화): Part1/Section7/01.generic.md
   - Part2. 유니티 엔진:
-      - Section1. 유니티 기초: docs/Part2/Section1/01.start-editor.md
+      - Section1. 유니티 기초: Part2/Section1/01.start-editor.md
       #- Section2. Transform(트랜스폼):
       #- Section3. Prefab(프리팹):
       #- Section4. Collision(충돌):
