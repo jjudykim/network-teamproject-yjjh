@@ -1,17 +1,42 @@
-# Welcome to MkDocs
+# 🚀 YJJH Team's C# & Unity Study Space
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<br>
 
-## Commands
+안녕하세요! **YJJH 팀의 C# & Unity 학습 공간**에 오신 것을 진심으로 환영합니다. 🙌
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+이곳은 게임 개발의 핵심인 **C# 프로그래밍 기초**부터 시작하여, **자료구조와 알고리즘**, 그리고 **유니티(Unity) 엔진 실무**까지의 모든 여정을 체계적으로 기록하고 공유하기 위해 만들어졌습니다.
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 🗺️ 학습 로드맵 가이드
+<br>
+
+저희 페이지는 크게 세 가지 파트로 구성되어 있습니다. 왼쪽의 내비게이션 탭을 통해 원하시는 단계를 선택해 보세요!
+
+
+
+### 🔹 Part 1. C# 기초 프로그래밍 입문
+- 프로그래밍의 가장 기본인 **데이터 타입**과 **변수**부터 시작합니다.
+- `if-else`, `switch` 등 제어문을 활용한 **가위바위보 게임** 실습을 포함합니다.
+- **객체지향(OOP)**의 깊이 있는 이해와 실제 **TextRPG** 프로젝트 제작 과정을 기록합니다.
+
+
+
+### 🔹 Part 2. 유니티(Unity) 엔진 실무
+- 유니티의 기초부터 **Transform, Prefab, Collision** 등 핵심 컴포넌트를 정복합니다.
+- **애니메이션, UI, 사운드, 오브젝트 풀링** 등 실제 게임 시스템 구축 방법을 배웁니다.
+- 최종적으로 **미니 RPG 프로젝트**를 통해 배운 내용을 하나로 통합합니다.
+
+
+---
+
+## 💡 방문해주셔서 감사합니다!
+
+<br>
+이 공간은 단순히 정보를 나열하는 곳이 아니라, 우리가 고민하고 해결한 흔적들을 담는 **성장의 기록**입니다. 함께 공부하며 더 나은 개발자로 나아가는 즐거운 여정이 되기를 바랍니다.
+
+오류 제보나 학습 관련 질문은 언제든 환영합니다! 
+자, 이제 원하시는 섹션부터 학습을 시작해 보세요. 🎮✨
+
+---
+*Last updated: 2026-02-20*

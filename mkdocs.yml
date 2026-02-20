@@ -10,7 +10,7 @@ theme:
         icon: material/weather-sunny
         name: Light
     - scheme: default
-      primary: white
+      primary: blue grey
       accent: deep purple
       toggle:
         icon: material/weather-night
@@ -32,10 +32,29 @@ nav:
           - 1. 데이터 형식: Part1/Section1/01.data-type.md
           - 2. 변수: Part1/Section1/02.variable.md
           - 3. 정수형: Part1/Section1/03.int.md
+          - 4. 2진수, 10진수, 16진수: Part1/Section1/04.numeral-system.md
+          - 5. 정수 범위의 비밀: Part1/Section1/05.secret-of-integer.md
+          - 6. float: Part1/Section1/06.float.md
+          - 7. string: Part1/Section1/07.string.md
+          - 8. bool: Part1/Section1/08.bool.md
+          - 9. casting(캐스팅): Part1/Section1/09.casting.md
+          - 10. 스트링 포맷: Part1/Section1/10.string-format.md
+          - 11. 산술 연산 1: Part1/Section1/11.arithmetic-operations1.md
+          - 12. 산술 연산 2: Part1/Section1/12.arithmetic-operations2.md
+          - 13. 비교 연산: Part1/Section1/13.comparison-operation.md
+          - 14. 논리 연산: Part1/Section1/14.logical-operation.md
+          - 15. 데이터 마무리: Part1/Section1/15.end-of-data.md
       - Section2. 코드의 흐름 제어:
           - 1. if와 else: Part1/Section2/01.if-else.md
           - 2. switch: Part1/Section2/02.switch.md
           - 3. 가위-바위-보 게임: Part1/Section2/03.rspGame.md
+          - 4. 상수와 열거형: Part1/Section2/04.const-and-enum.md
+          - 5. while: Part1/Section2/05.while.md
+          - 6. for: Part1/Section2/06.for.md
+          - 7. break, continue: Part1/Section2/07.break-continue.md
+          - 8. 함수(메소드): Part1/Section2/08.method.md
+          - 9. ref, out: Part1/Section2/09.ref-out.md
+          - 10. 오버로딩: Part1/Section2/10.overloading.md
       - Section3. TextRPG1:
           - 1. TextRPG1 직업 고르기: Part1/Section3/01.text-rpg1-select-class.md
       - Section4. 객체지향 여행:
@@ -47,19 +66,32 @@ nav:
       - Section7. 알아두면 유용한 기타 문법:
           - 1. Generic(일반화): Part1/Section7/01.generic.md
   - Part2. 유니티 엔진:
-      - Section1. 유니티 기초: Part2/Section1/01.start-editor.md
-      #- Section2. Transform(트랜스폼):
-      #- Section3. Prefab(프리팹):
-      #- Section4. Collision(충돌):
-      #- Section5. Camera(카메라):
-      #- Section6. Animation(애니메이션):
-      #- Section7. UI:
-      #- Section8. Scene(씬):
-      #- Section9. Sound(사운드):
-      #- Section10. Object Pooling(오브젝트 풀링):
-      #- Section11. Coroutine(코루틴):
-      #- Section12. Data(데이터):
-      #- Section13. 미니RPG:
+      - Section1. 유니티 기초:
+          - 1. 에디터 입문: Part2/Section1/01.start-editor.md
+      - Section2. Transform(트랜스폼):
+          - 1. 플레이어 설정: Part2/Section2/01.set-player.md
+      - Section3. Prefab(프리팹):
+          - 1. Prefab#1: Part2/Section3/01.prefab1.md
+      - Section4. Collision(충돌):
+          - 1. Collider: Part2/Section4/01.collider.md
+      - Section5. Camera(카메라):
+          - 1. Camera 1: Part2/Section5/01.camera1.md
+      - Section6. Animation(애니메이션):
+          - 1. Animation 기초: Part2/Section6/01.animation-basic.md
+      - Section7. UI:
+          - 1. UI 기초: Part2/Section7/01. ui-basic.md
+      - Section8. Scene(씬):
+          - 1. SceneManager: Part2/Section8/01.scene-manager1.md
+      - Section9. Sound(사운드):
+          - 1. SoundManager: Part2/Section9/01. sound-manager1.md
+      - Section10. Object Pooling(오브젝트 풀링):
+          - 1. PoolManager: Part2/Section10/01.pool-manager.md
+      - Section11. Coroutine(코루틴):
+          - 1. Coroutine 1: Part2/Section11/01.coroutine1.md
+      - Section12. Data(데이터):
+          - 1. DataManager 1: Part2/Section12/01.data-manager1.md
+      - Section13. 미니RPG:
+          - 1. 미니RPG - 1)환경세팅: Part2/Section13/01.mini-rpg1.md
 
 markdown_extensions:
   - attr_list                 # 이미지 사이즈 조절
